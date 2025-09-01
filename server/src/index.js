@@ -1,6 +1,7 @@
 import { Hono } from 'hono'
 
 const app = new Hono()
+app.use()
 
 app.get('/', (c) => {
   return c.text('Hello Hono!')
@@ -14,5 +15,6 @@ app.post('/validate-word', async (c) => {
    console.log(correctWord.includes(word) ? "you pass" : "you fail")
   return c.json(correctWord.includes(word) ? "you pass" : "you fail");
 })
-
-export default app
+console.log(correctWord.length)
+app.get()
+export default app 
