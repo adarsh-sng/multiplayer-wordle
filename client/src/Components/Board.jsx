@@ -40,10 +40,6 @@ export const Board = () => {
           <Grid guess={val} />
         </div>
       ))}
-      {/* <div>
-        {word}
-        {guessNum}
-      </div> */}
     </div>
   );
 };

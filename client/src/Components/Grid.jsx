@@ -10,7 +10,7 @@ export const Grid = ({guess}) => {
         .map((char, i) => (
           <div
             key={i}
-            className={`aspect-square size-13 sm:size-14 md:size-16 lg:size-20 border-2 border-border flex items-center justify-center text-3xl sm:text-4xl text-text font-extrabold`}>{char}</div>
+            className={`aspect-square size-13 sm:size-14 lg:size-16 border-2 border-border flex items-center justify-center text-3xl sm:text-4xl text-text font-extrabold`}>{char}</div>
         ))}
     </div>
   );
