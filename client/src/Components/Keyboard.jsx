@@ -25,10 +25,10 @@ const Keyboard = () => {
     );
   };
   return (
-    <div className="flex flex-col justify-center items-center gap-2">
+    <div className="max-w-2xl w-full flex flex-col justify-center items-center gap-2">
       {renderRow(row1)}
        <div className='w-[90%]'>{renderRow(row2)}</div>
-        <div className='flex w-[100%]'>
+        <div className='flex w-[100%] gap-1'>
           <button className='flex-1 flex items-center justify-center h-12 text:sm  border-2 rounded-md px-auto'>Enter</button>
           <div className='w-[70%]'>{renderRow(row3)}</div>
           <button className='flex-1 flex items-center justify-center h-12 text-md md:text-lg lg:text-lg border-2 rounded-md px-auto'><Delete/></button>
